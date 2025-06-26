@@ -2,52 +2,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WORLD BEST</title>
-  <style>
-    body { margin: 0; font-family: sans-serif; background-color: black; color: white; }
-    header { background-color: #dc2626; text-align: center; padding: 2rem; }
-    nav { display: flex; justify-content: center; gap: 2rem; padding: 1rem; border-bottom: 1px solid #444; }
-    nav a { color: white; text-decoration: none; }
-    nav a:hover { color: #dc2626; }
-    section { padding: 2rem; }
-    .features, .contact { background-color: #111; }
-    .card { background-color: #222; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0; }
-    .button { background-color: #dc2626; color: white; padding: 0.5rem 1rem; border: none; border-radius: 0.25rem; cursor: pointer; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD BEST Ride App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: red;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .download {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: red;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #111;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>WORLD BEST</h1>
-    <p>Your Ultimate Ride-Hailing Experience</p>
-  </header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#download">Get the App</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <section id="about">
-    <h2 style="color:#dc2626;">About Us</h2>
-    <p>Welcome to WORLD BEST, Kenya’s trusted ride-hailing service powered by HORACE WORLD BEST LTD. Our mission is to provide fast, safe, and affordable transport solutions to everyone — whether you’re in Nairobi or beyond. Built with local needs in mind and powered by global technology.</p>
-  </section>
-  <section id="features" class="features">
-    <h2 style="color:#dc2626;">Features</h2>
-    <div class="card"><strong>Easy M-Pesa Payments</strong><p>STK push integration for seamless cashless rides.</p></div>
-    <div class="card"><strong>Live Driver Tracking</strong><p>Track your ride in real-time on our custom map UI.</p></div>
-    <div class="card"><strong>USSD Booking Option</strong><p>Book rides without internet or a smartphone.</p></div>
-    <div class="card"><strong>Custom Fare System</strong><p>Fair pricing with automatic distance & time calculations.</p></div>
-  </section>
-  <section id="download">
-    <h2 style="color:#dc2626;">Get the App</h2>
-    <p>Download the WORLD BEST app and start riding today.</p>
-    <button class="button">Download APK</button>
-  </section>
-  <section id="contact" class="contact">
-    <h2 style="color:#dc2626;">Contact</h2>
-    <p>📍 Nairobi, Kenya</p>
-    <p>📧 horacezain@gmail.com</p>
-  </section>
+    <header>
+        <h1>WORLD BEST</h1>
+        <p>Your Trusted Ride-Hailing Partner</p>
+    </header>
+    <section>
+        <h2>🚗 Download the App</h2>
+        <p>Tap below to install the WORLD BEST ride-hailing app:</p>
+        <a class="download" href="world_best_test.apk" download>📥 Download APK</a>
+    </section>
+    <section>
+        <h2>💳 M-Pesa Payment</h2>
+        <p>We support instant M-Pesa payments. You can pay for your rides securely via STK Push!</p>
+    </section>
+    <section>
+        <h2>📞 Contact Us</h2>
+        <p>Email: horacezain@gmail.com</p>
+        <p>Phone: 0758021193</p>
+    </section>
+    <footer>
+        <p>© 2025 HORACE WORLD BEST LTD</p>
+    </footer>
 </body>
 </html>
